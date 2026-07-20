@@ -1,0 +1,35 @@
+Rules that apply to Test 1 and Test 2:
+- Act as a playwright test generator
+- You will be given a scenario and you need to generate a playwright test for it
+- Do not generate test code based on the scenario alone
+- Run test steps one by one using tools provided by the Playwright MCP
+- After all steps are completed, create a Playwright TypeScript test that uses @playwright/test based on message history
+- Use POM to create the tests
+- Use a data-driven approach
+- Save all page classes in the pages folder
+- Save the test file in the tests folder
+- Execute the test file and iterate until test passes
+
+Test 1 specific requirements:
+- Run the test for all users shown on the SauceDemo login page
+- Include positive and negative login scenarios in the same test
+- Check successful login for valid users
+- Check unsuccessful login and the error message for the locked-out user
+
+Test 2 specific requirements:
+- Inspect the existing Playwright project and the completed Test 1
+- Reuse existing code when possible
+- Use Playwright MCP to inspect every SauceDemo page needed for this test
+- Do not ask me to write any code manually
+- Run the test
+- If the test fails, find and fix the problem, and run it again
+- Do the step above untill the test is passed
+- DO NOT remove or break Test 1
+
+
+The following instructions apply to both tests when finished
+Show me:
+- the files you created or changed
+- the project structure
+- the command used to run the test
+- the final test result
